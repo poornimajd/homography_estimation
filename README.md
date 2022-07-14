@@ -1,11 +1,11 @@
 # homography_estimation
 <h2>What is homography and how to compute it?</h2>
 Briefly, the planar homography relates the transformation between two planes (up to a scale factor).
-It is a 3x3 matrix,which requires input as the 2D image coordinates,and the corresponding 2D real world coordinates.More details about the basics of homography can be found [here](https://docs.opencv.org/4.x/d9/dab/tutorial_homography.html).
+It is a 3x3 matrix,which requires input as the 2D image coordinates,and the corresponding 2D real world coordinates.More details about the basics of homography can be found here-https://docs.opencv.org/4.x/d9/dab/tutorial_homography.html .
 
 
 <h3>Prerequisites</h3>
-The homography method needs the intrinsics of the camera to undistort the image.The intrinsics for the given camera can be computed using opencv.For further details to compute the intrinsics,refer [here](https://docs.opencv.org/4.x/dc/dbb/tutorial_py_calibration.html)<br />
+The homography method needs the intrinsics of the camera to undistort the image.The intrinsics for the given camera can be computed using opencv.For further details to compute the intrinsics,refer here-https://docs.opencv.org/4.x/dc/dbb/tutorial_py_calibration.html <br />
 
 <h3>Procedure to compute homography</h3>
 1. Place some markers on the region of the floor,for which the homography needs to be estimated.The accuracy of the real world position estimates depends on the number of markers,more the number,better the accuracy of the estimated position.The markers also need to be spread apart.<br />
